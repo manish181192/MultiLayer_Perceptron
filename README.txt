@@ -1,7 +1,7 @@
 # MultiLayer_Perceptron
 Multi Layer Perceptron in Tensorflow
 
-__Class : multilayer_perceptron
+Class : multilayer_perceptron
 -------------------------------
 Input to  __init__(): 
 input_size = No of features
