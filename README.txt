@@ -1,9 +1,9 @@
 # MultiLayer_Perceptron
 Multi Layer Perceptron in Tensorflow
 
-Class : multilayer_perceptron
+__Class : multilayer_perceptron
 -------------------------------
-Input to  __init__():
+Input to  __init__(): 
 input_size = No of features
 output_size = No of output classes
 no_layers = No of Hidden Layers
@@ -31,10 +31,6 @@ with tf.Session() as session:
       }
       _, loss = session.run([train_step, mlp.loss], feed_dict = input_dictionary)
       print "Loss: "+str(loss)
-   
-
-
-
 
 
 
