@@ -24,8 +24,11 @@ with tf.Session() as session:
    session.run(tf.global_variables_initializer())
    
    for epoch in range(no_of_epochs):
+      '''
+        inputs, labels, dropout are numpy arrays.
+      '''
       input_dictionary = {
-        mlp.input : input,
+        mlp.inputs : input,
         mlp.labels : labels,
         mlp.dropout : keep_prob
       }
