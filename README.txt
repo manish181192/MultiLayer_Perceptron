@@ -12,7 +12,7 @@ reg_L2 = regularization parameter
 
 Train Procedure:
 ----------------
-# Builf Multi-Layer Perceptron with 10 Input Feautures and 2 output classes
+# To Build Multi-Layer Perceptron with 10 Input Feautures and 2 output classes
 no_of_epochs = 1000
 mlp = multilayer_perceptron(input_size = 10,
                             output_size = 2,
